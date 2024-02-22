@@ -1,0 +1,46 @@
+.slide  {
+    margin-top: 80px;
+}
+
+.slide  img {
+    height: 65vh;
+}
+
+footer {
+    background-color:#e3e3e6 ;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.redes {
+    font-size: 2rem;
+}
+
+.redes a {
+    margin-right: 20px; 
+    color: black;
+}
+
+.bi {
+    color: #e3e3e6;
+}
+
+.container p {
+    font-weight: bold;
+    color: rgb(236, 219, 178);
+}
+
+h1 {
+    color: rgb(236, 219, 178);
+}
+
+.container {
+    min-height: 100vh; /********garantiza el 100 de altura***********/
+}
+
+.logo-navbar {
+    width: 150px; /* Ajusta el tamaño según tus necesidades */
+    height: auto; /* Mantiene la proporción original */
+}
+
