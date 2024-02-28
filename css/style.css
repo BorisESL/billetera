@@ -27,6 +27,13 @@ h1 {
     color: rgb(201, 188, 50);
 }
 
+/* Estilo para el hr */
+hr {
+    border: 0;
+    height: 3px;
+    background-color: rgb(201, 188, 50);
+}
+
 .container {
     min-height: 100vh; /********garantiza el 100 de altura***********/
 }
@@ -39,6 +46,36 @@ h1 {
 .formulario {
     max-width: 400px;
     margin: 0 auto;
+}
+
+.formulario2 {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 2px solid yellow; 
+    border-radius: 1rem; 
+    padding: 100px;
+    
+}
+.formulario3 {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 2px solid yellow; 
+    border-radius: 1rem; 
+    padding: 100px;
+}
+
+.formulario4 {
+    max-width: 980px;
+    margin: 0 auto;
+    border: 2px solid yellow; 
+    border-radius: 1rem; 
+    padding: 100px;
+}
+
+.formulario5 {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 100px;
 }
 
 footer {
