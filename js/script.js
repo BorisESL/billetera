@@ -15,7 +15,7 @@ $(document).ready(function() {
       // Verificar las credenciales
       if (correo === usuarioValido.correo && contraseña === usuarioValido.contraseña) {
         // Credenciales válidas, redirigir a la página menú principal
-        window.location.href = './pages/menu.html';
+        window.location.href = './pages/menup.html';
       } else {
         // Credenciales inválidas, mostrar mensaje de error
         alert('Usuario o contraseña incorrectos. Inténtalo de nuevo.');
