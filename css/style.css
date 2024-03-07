@@ -1,9 +1,37 @@
-.slide  {
-    margin-top: 80px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.slide  img {
-    height: 65vh;
+.img-fluid {animation:fade-in-right .6s cubic-bezier(.39,.575,.565,1.000) both}
+
+@keyframes fade-in-right{0%{transform:translateX(50px);opacity:0}100%{transform:translateX(0);opacity:1}}
+
+.jumbo {-webkit-animation:fade-in-left .6s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in-left .6s cubic-bezier(.39,.575,.565,1.000) both}
+
+@-webkit-keyframes fade-in-left{0%{-webkit-transform:translateX(-50px);transform:translateX(-50px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}@keyframes fade-in-left{0%{-webkit-transform:translateX(-50px);transform:translateX(-50px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
+
+.formulario {
+    animation: slide-up-from-bottom 0.6s cubic-bezier(0.39, 0.575, 0.565, 1.000) both;
+}
+
+@keyframes slide-up-from-bottom {
+    0% {
+        transform: translateY(100px); /* Inicia desde una posición baja */
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+.texto-medio {
+    color: #ffffffc4;
+    font-family: 'DM Serif Display', serif;
+
 }
 
 .redes {
@@ -46,6 +74,7 @@ hr {
 .formulario {
     max-width: 400px;
     margin: 0 auto;
+    
 }
 
 .formulario2 {
@@ -54,8 +83,9 @@ hr {
     border: 2px solid yellow; 
     border-radius: 1rem; 
     padding: 100px;
-    
+
 }
+
 .formulario3 {
     max-width: 400px;
     margin: 0 auto;

@@ -1,6 +1,6 @@
 $(document).ready(function() {
     // Datos de usuario para la autenticación
-    var usuarioValido = {
+    let usuarioValido = {
       correo: 'boris@gmail.com',
       contraseña: '12345'
     };
@@ -9,8 +9,8 @@ $(document).ready(function() {
       event.preventDefault();
   
       // Obtener los valores de correo y contraseña del formulario
-      var correo = $('#email').val();
-      var contraseña = $('#password').val();
+      let correo = $('#email').val();
+      let contraseña = $('#password').val();
   
       // Verificar las credenciales
       if (correo === usuarioValido.correo && contraseña === usuarioValido.contraseña) {
