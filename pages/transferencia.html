@@ -38,32 +38,34 @@
     </nav>
   </header>
 
-  <section class="formulario4 d-flex flex-column justify-content-center text-white">
-    <div>
-      <h1 class="text-secondary">Enviar Dinero</h1>
-      <form>
-        <div class="form-group">
-          <label for="searchContact">Buscar en la agenda de transferencias:</label>
-          <input type="text" class="form-control mt-md-3" id="searchContact" placeholder="Buscar contacto">
-        </div>
-        <button type="submit" class="btn btn-dark mt-md-3 text-warning">Agregar nuevo contacto</button>
-        <h3 class="text-secondary mt-md-3">Contactos</h3>
-        <ul id="contactList" class="list-group">
-          <li class="list-group-item">
-            <div class="contact-info">
-              <span class="contact-name">John Doe</span>
-              <span class="contact-details">CBU: 123456789, Alias: john.doe, Banco: ABC Bank</span>
-            </div>
-          </li>
-          <li class="list-group-item">
-            <div class="contact-info">
-              <span class="contact-name">Jane Smith</span>
-              <span class="contact-details">CBU: 987654321, Alias: jane.smith, Banco: XYZ Bank</span>
-            </div>
-          </li>
-          <button type="submit" class="btn btn-dark mt-md-3 text-warning">Transferir</button>
-      </form>
-      <a href="menup.html" class="btn btn-dark mt-md-3 text-warning">Volver al Menú Principal</a>
+  <section class="container-fluid">
+    <div class="formulario4 d-flex flex-column justify-content-center text-white">
+      <div>
+        <h1 class="text-secondary">Enviar Dinero</h1>
+        <form>
+          <div class="form-group">
+            <label class="text-secondary" for="searchContact">Buscar en la agenda de transferencias:</label>
+            <input type="text" class="form-control mt-md-3" id="searchContact" placeholder="Buscar contacto">
+          </div>
+          <button type="submit" class="btn btn-dark mt-md-3 text-warning mt-3">Agregar nuevo contacto</button>
+          <h3 class="text-secondary mt-md-3">Contactos</h3>
+          <ul id="contactList" class="list-group">
+            <li class="list-group-item">
+              <div class="contact-info">
+                <span class="contact-name">John Doe</span>
+                <span class="contact-details">CBU: 123456789, Alias: john.doe, Banco: ABC Bank</span>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="contact-info">
+                <span class="contact-name">Jane Smith</span>
+                <span class="contact-details">CBU: 987654321, Alias: jane.smith, Banco: XYZ Bank</span>
+              </div>
+            </li>
+            <button type="submit" class="btn btn-dark mt-md-3 text-warning mt-3">Transferir</button>
+        </form>
+        <a href="menup.html" class="btn btn-dark mt-md-3 text-warning mt-3">Volver al Menú Principal</a>
+      </div>
     </div>
   </section>
 
@@ -82,6 +84,7 @@
         <i class="bi bi-linkedin text-warning"></i></a>
     </div>
   </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
@@ -93,6 +96,7 @@
     crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="/js/script.js"></script>
+
 </body>
 
 </html>

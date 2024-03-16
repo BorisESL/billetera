@@ -19,7 +19,7 @@ $(document).ready(function () {
     } else {
       // Credenciales inválidas, mostrar mensaje de error
       const alertMessage = $("#alertMessage");
-      
+
       const appendAlert = (message, type) => {
         const wrapper = document.createElement('div')
         wrapper.innerHTML = [
@@ -28,10 +28,10 @@ $(document).ready(function () {
           '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
           '</div>'
         ].join('')
-        
+
         alertMessage.append(wrapper)
       }
-      
+
       appendAlert('Usuario o contraseña incorrectos. Inténtalo de nuevo.', 'danger')
 
       setTimeout(() => {
@@ -39,7 +39,7 @@ $(document).ready(function () {
 
         });
       }, 3000);
-      
+
     }
   });
 });
