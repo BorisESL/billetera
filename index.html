@@ -30,17 +30,25 @@
       <!-- Alert -->
       <div id="alertMessage"></div>
       <!-- Alert -->
-      <h2 class="text-secondary">Inicio de sesión</h2>
+      <h2 class="text-secondary text-center">Inicio de sesión</h2>
       <form id="loginForm">
         <div class="form-group">
-          <label class="text-secondary mb-2" for="email">Correo:</label>
-          <input type="email" class="form-control" id="email" placeholder="Enter email">
+          <label class="text-secondary mb-2" for="email"></label>
+          <div class="input-group">
+            <span class="input-group-text"><i class="bi bi-person-fill text-black"></i></span>
+            <input type="email" class="form-control" id="email" placeholder="Correo electrónico">
+          </div>
         </div>
         <div class="form-group">
-          <label class="text-secondary mb-2" for="password">Contraseña:</label>
-          <input type="password" class="form-control" id="password" placeholder="Enter password">
+          <label class="text-secondary mb-2" for="password"></label>
+          <div class="input-group">
+            <span class="input-group-text"><i class="bi bi-lock-fill text-black"></i></span>
+            <input type="password" class="form-control" id="password" placeholder="Contraseña">
+          </div>
         </div>
-        <button type="submit" class="btn btn-dark text-warning w-100 mt-md-4">Ingresar</button>
+
+
+        <button type="submit" class="btn btn-dark text-warning w-100 mt-3">Ingresar</button>
       </form>
 
     </div>

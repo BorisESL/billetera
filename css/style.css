@@ -4,6 +4,43 @@
     box-sizing: border-box;
 }
 
+header .cero:hover {
+
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1.1);
+    transform: scale(1.1);
+}
+
+header .uno:hover {
+
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1.1);
+    transform: scale(1.1);
+}
+
+header .dos:hover {
+
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1.1);
+    transform: scale(1.1);
+}
+
+header .tres:hover {
+
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1.1);
+    transform: scale(1.1);
+}
+
+header .cuatro:hover {
+
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1.1);
+    transform: scale(1.1);
+}
+
+header .cinco:hover {
+
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1.1);
+    transform: scale(1.1);
+}
+
+
 .img-fluid {
     animation: fade-in-right .6s cubic-bezier(.39, .575, .565, 1.000) both
 }
@@ -182,3 +219,4 @@ footer {
     display: flex;
     justify-content: space-around;
 }
+
