@@ -43,6 +43,26 @@ header .cinco:hover {
 
 .img-fluid {
     animation: fade-in-right .6s cubic-bezier(.39, .575, .565, 1.000) both
+
+}
+
+.logotipo {
+
+    animation: rotar 5s linear infinite;
+}
+
+img:hover {
+
+    cursor: pointer;
+}
+
+@keyframes rotar {
+    from {
+        transform: rotateY(180deg);
+    }
+    to {
+        transform: rotateY(-180deg);
+    }
 }
 
 @keyframes fade-in-right {
